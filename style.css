@@ -98,7 +98,7 @@ form{
     margin: 30px auto;
     border-radius: 5px;
     cursor: pointer;
-    display: none;
+    display: block;
 }
 
 @media screen and (max-width:768px){
@@ -106,12 +106,12 @@ form{
         padding: 20px;
     }
     .search-result{
-        width: 45%;
+       width: 45%;
     }
 }
 
 @media screen and (max-width:480px){
     .search-result{
-        width: 100%;
+       width: 100%;
     }
 }
